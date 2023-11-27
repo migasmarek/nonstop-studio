@@ -14,7 +14,6 @@ export default function Carousel() {
               alt={project.name}
               width={1728}
               height={1067}
-              priority
               className={styles.splideImage}
             />
             <div className={styles.splideBar}>
