@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Carousel from './ui/carousel';
 import Navbar from './ui/navbar';
+import Contact from './ui/contact';
 
 import styles from './page.module.css';
 
@@ -17,7 +18,8 @@ export default function Home() {
       
       <Navbar />
       <Carousel />
-
+      <Contact />
+      
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

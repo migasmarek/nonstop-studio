@@ -22,7 +22,7 @@ export default function Carousel() {
                     <h1 className={styles.client}>{project.name}</h1>
                     <p className={styles.task}>{project.task}</p>
                 </div>
-                <p className={styles.number}>{project.id}/{list.length}</p>
+                {/* <p className={styles.number}>{project.id}/{list.length}</p> */}
             </div>
         </SplideSlide>
         );
